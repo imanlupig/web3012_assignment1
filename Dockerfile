@@ -1,7 +1,7 @@
 #Base image using node
 FROM node:22
 #Sets the working directory
-WORKDIR /app
+WORKDIR /app/manlupig_ian_site
 #Copy Files
 COPY package*.json ./
 #Builds the app
