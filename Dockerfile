@@ -9,8 +9,8 @@ RUN npm install
 #Copies the rest of the application to the working directory
 COPY . .
 #Sets the environment variable for the port
-ENV PORT=8080
+ENV PORT=7775
 #Expose the 8080 port for the app
-EXPOSE 8080
+EXPOSE 7775
 #Starts the app
 CMD ["npm", "start"]
