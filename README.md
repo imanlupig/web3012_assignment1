@@ -13,6 +13,6 @@ To get the application running using Docker, follow these steps:
    ```bash
    sudo docker build -t lastName_firstName_coding_assignment11 .
 
-   sudo docker run -p 7775:8080 --name lastName_firstName_coding_assignment11 manlupig_ian_coding_assignmenn11
+   sudo docker run -p 7775:8080 --name lastName_firstName_coding_assignment11 manlupig_ian_coding_assignment11
 
 
